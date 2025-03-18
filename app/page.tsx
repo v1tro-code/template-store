@@ -11,14 +11,14 @@ export default function Home() {
       <header className="bg-primary text-primary-foreground py-4">
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary-foreground rounded-full flex items-center justify-center">
+            <div className="w-10 h-10 bg-transparent rounded-full flex items-center justify-center">
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/V1TR%20%283%29-F9RR8HtNKnMbXOsxZbYA9vtV5upd1o.png"
                 alt="Graficamente Estampados Logo"
                 className="w-6 h-6"
               />
             </div>
-            <h1 className="text-xl font-bold">Graficamente Estampados</h1>
+            <h1 className="text-xl font-bold">Demo v1tr0</h1>
           </div>
           <nav className="hidden md:flex gap-6">
             <Link href="/" className="hover:underline">
